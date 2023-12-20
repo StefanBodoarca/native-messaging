@@ -2,9 +2,7 @@
 Docs: https://developer.chrome.com/docs/extensions/develop/concepts/native-messaging
 
 
-[## Client side module](
-module: https://github.com/StefanBodoarca/data-to-extension/tree/master/client%20side
-)
+## Client side module
 
 Send simple messages to a local/server application (native messaging host):
 
@@ -24,7 +22,7 @@ port.postMessage({ text: "Hello, received from chrome extension" });
 ```
 
 
-[# Server side module](module: https://github.com/StefanBodoarca/listener-to-es)
+## Server side module
 
 This module receives messages (documents) from a chrome extension and stores them in Elasticsearch.
 
