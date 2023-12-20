@@ -7,7 +7,7 @@ Docs: https://developer.chrome.com/docs/extensions/develop/concepts/native-messa
 Send simple messages to a local/server application (native messaging host):
 
 Created a port and sent/received message to native messaging host.
-Code from js/bkg/background.js
+[Code from js/bkg/background.js](https://github.com/StefanBodoarca/native-messaging/blob/main/client%20side/js/bkg/background.js)
 
 ```agsl
 const port = chrome.runtime.connectNative('com.google.chrome.example.echo');
@@ -28,7 +28,7 @@ This module receives messages (documents) from a chrome extension and stores the
 
 
 Checkout the message reader:
-com/ro/controller/reader/MessageReader.java
+[com/ro/controller/reader/MessageReader.java](https://github.com/StefanBodoarca/native-messaging/blob/main/native%20host/src/main/java/com/ro/controller/reader/MessageReader.java)
 
 ```agsl
 public String readMessage() {
@@ -57,7 +57,7 @@ public String readMessage() {
 ```
 
 Checkout the message writer (sends back message to the extension):
-com/ro/controller/sender/MessageSender.java
+[com/ro/controller/sender/MessageSender.java](https://github.com/StefanBodoarca/native-messaging/blob/main/native%20host/src/main/java/com/ro/controller/sender/MessageSender.java)
 
 ```agsl
 public void sendMessage(String jsonString) {
